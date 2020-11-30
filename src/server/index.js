@@ -35,8 +35,3 @@ app.get('/', (req,res) =>{
 app.get('/hello', (req,res) =>{
     res.send('<h1>hello</h1>')
 })
-
-
-
-//mongodb+srv://test:<password>@cluster0.kvks6.mongodb.net/<dbname>?retryWrites=true&w=majority
-//mongodb://test:<password>@cluster0-shard-00-00.kvks6.mongodb.net:27017,cluster0-shard-00-01.kvks6.mongodb.net:27017,cluster0-shard-00-02.kvks6.mongodb.net:27017/<dbname>?ssl=true&replicaSet=atlas-s1gmap-shard-0&authSource=admin&retryWrites=true&w=majority
