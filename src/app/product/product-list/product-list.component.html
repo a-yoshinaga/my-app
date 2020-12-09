@@ -8,7 +8,7 @@
                     <div class="card-text">
                         <div>Author : {{product.author}}</div>
                         <div>Category : {{product.category}}</div>
-                        <a [titile]= "product.name" [routerLink]="['/products',productId]">
+                        <a [titile]= "product.name" [routerLink]="['/products',product._id]">
                             <div *ngIf ="product.description">
                                 Detail: {{product.description}}
                             </div>
